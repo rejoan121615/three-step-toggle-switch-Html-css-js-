@@ -30,22 +30,22 @@ body {
   border-radius: 50%;
   transition: all 0.5s;
 }
-.switch.start {
-  background-color: #264653;
+.switch.dark-mode {
+  background-color: #2c2f33;
 }
-.switch.start div {
+.switch.dark-mode div {
   transform: translateX(0%);
 }
-.switch.center {
-  background-color: #2a9d8f;
+.switch.light-mode {
+  background-color: #2196f3;
 }
-.switch.center div {
+.switch.light-mode div {
   transform: translateX(100%);
 }
-.switch.end {
+.switch.dark-light-mode {
   background-color: #e76f51;
 }
-.switch.end div {
+.switch.dark-light-mode div {
   transform: translateX(200%);
 }
 
